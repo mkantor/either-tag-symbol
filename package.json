@@ -1,16 +1,18 @@
 {
-  "name": "@mkantor/either-tag-symbol",
+  "name": "@matt.kantor/either-tag-symbol",
   "version": "0.0.0",
-  "type": "module",
-  "main": "dist/index.js",
-  "scripts": {
-    "clean": "rm -rf dist *.tsbuildinfo",
-    "build": "tsc --build"
-  },
   "devDependencies": {
     "typescript": "^5.7.3"
   },
   "files": [
     "dist/*"
-  ]
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "github:mkantor/either-tag-symbol",
+  "scripts": {
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "build": "tsc --build"
+  },
+  "type": "module"
 }
